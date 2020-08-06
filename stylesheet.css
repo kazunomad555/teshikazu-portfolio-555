@@ -12,6 +12,8 @@ body {
     box-sizing: border-box;
 }
 
+/* header */
+
 .header-logo {
     margin: 30px 80px 0 30px;
 }
@@ -55,6 +57,10 @@ body {
     display: none;
 }
 
+
+
+
+/* main */
 
 
 .main {
@@ -137,6 +143,19 @@ body {
 }
 
 
+
+
+/* jQuery */
+.effect-fade {
+    opacity: 0;
+    transform: translate(0, 100px);
+    transition: all 2000ms;
+}
+
+.effect-scroll {
+    opacity: 1;
+    transform: translate(0, 0);
+}
 
 
 
@@ -245,3 +264,7 @@ div .progress {
 }
 
 }
+
+
+
+
